@@ -52,7 +52,7 @@ wyverncrepe = {
 desertdelight = {
     'Name': 'Desert Delight Cocktail',
     'Ingredients': ['salac', 'payapa', 'watmel'],
-    'Multiplier': 2.8,
+    'Multiplier': 1.8,
     'Emoteid': ''
 }
 

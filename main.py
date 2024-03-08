@@ -422,7 +422,7 @@ favoriteberries = {
     'oshawott': 'chesto|charti|aguav|pamtre|Tropical Custard',
     'snivy': 'pecha|kebia|salac|lansat|Forest Berry Medley',
     'tepig': 'cheri|chople|liechi|spelon',
-    'phanpy': 'persim|shuca|grepa|rabuta',
+    'phanpy': 'persim|shuca|grepa|rabuta|Desert Delight Cocktail',
     'minccino': 'oran|chilan|mago|micle',
     'nickit': 'oran|bluk|pomeg|magost|Crimson Cocktail',
     'vulpix': 'cheri|razz|petaya|spelon',
@@ -431,12 +431,12 @@ favoriteberries = {
     'vaporeon': 'chesto|passho|kelpsy|pamtre',
     'jolteon': 'rawst|wacan|salac|nomel',
     'flareon': 'cheri|occa|tamato|spelon',
-    'espeon': 'chesto|payapa|lum|rabuta',
+    'espeon': 'chesto|payapa|lum|rabuta|Desert Delight Cocktail',
     'umbreon': 'persim|colbur|ganlon|jaboca',
     'leafeon': 'leppa|rindo|kee|lansat',
     'glaceon': 'rawst|yache|wiki|cornn',
     'sylveon': 'pecha|roseli|mago|custap|Kalosian Thunderstruck Macarons',
-    'hoppip': 'leppa|coba|grepa|cornn',
+    'hoppip': 'leppa|coba|grepa|cornn|Cornn Berry Popcorn',
     'azurill': 'oran|sitrus|apicot|watmel|Tropical Custard',
     'togepi': 'aspear|wepear|lum|micle',
     'mareep': 'cheri|wacan|iapapa|rowap',
@@ -685,7 +685,7 @@ def findemptybox(userid):
     for file in filelist:
         file = file.split('.')[0]
         boxlist = makeboxlist(userid,file)
-        if len(boxlist) < 16:
+        if len(boxlist) < 16 and file != "none":
             empty = True
             return file
         i += 1
@@ -996,6 +996,16 @@ async def send_message(message: Message, user_message: str) -> None:
 
 
     if "espurr." not in lowered and "esp." not in lowered and "es." not in lowered and "e." not in lowered:
+
+        if "im straight" in lowered or "i'm straight" in lowered or "i‘m straight" in lowered or "i am straight" in lowered:
+            await message.add_reaction('<:false:1217205478862622730>')
+
+        if "gay" in lowered:
+            await message.add_reaction("<a:Gay_Espurr:1211869778940272722>")
+
+        if "i like berries" in lowered:
+            for count in range(20):
+                await message.add_reaction(berriestoemoteid.get(random.choice(allberrystrings)))
 
         currenttime = gettimeinminutes()
         print(currenttime)
@@ -1388,8 +1398,7 @@ async def send_message(message: Message, user_message: str) -> None:
                                         gemlevel = items.get(gemname)
                                         berry = berrytypes.get(type)
                                         print(f'Wearing {gemname} Lvl.{gemlevel}')
-                                        upper = 99 + int(gemlevel)
-                                        chance = random.randint(1, upper)
+                                        chance = random.randint(1, 100)
                                         if chance >= 85:
                                             berry_choice = berry
                                             btype = 'uncommon'
@@ -3564,6 +3573,7 @@ ID {each.get('id')}: {each.get('name')} lvl.{each.get('level')} {petemote}''')
                                         'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '_', '-', '1', '2', '3', '4', '5',
                                         '6',
                                         '7', '8', '9', '0']
+                        print("Yes meow")
 
 
                         for each in str(where):
@@ -3955,7 +3965,7 @@ use **espurr.travel <location>** to move to that location, use espurr.travel def
 
                     for ingredient in fooddict.get('Ingredients'):
                         if ingredient in items:
-                            if int(items.get(ingredient)) >= 1:
+                            if int(items.get(ingredient)) >= count:
                                 items[ingredient] = str(int(items.get(ingredient))-count)
                             else:
                                 canmake = False
@@ -4405,6 +4415,197 @@ It seems to want to join you!""")
 
 
                 await message.channel.send(response)
+
+
+            elif lowered[:9] == 'berrycode':
+                args = lowered.split(" ")
+                if "key" in args[-1]:
+                    key = args[-1].replace("key:", "")
+                    del args[-1]
+                else:
+                    key = "none"
+
+                berriesforcode = ['cheri', 'chesto', 'pecha', 'rawst', 'aspear', 'leppa', 'oran', 'persim',
+'occa', 'passho', 'wacan', 'rindo', 'yache', 'chople', 'kebia', 'shuca', 'coba', 'payapa', 'tanga',
+'charti', 'kasib', 'haban', 'colbur', 'babiri', 'chilan', 'razz', 'nanab', 'pinap', 'bluk',
+'wepear', 'roseli', 'sitrus', 'lum', 'figy', 'wiki', 'mago', 'aguav', 'iapapa', 'pomeg', 'kelpsy', 'qualot',
+'hondew', 'grepa', 'tamato', 'liechi', 'ganlon', 'salac', 'petaya', 'apicot', 'kee', 'maranga',
+'cornn', 'magost', 'rabuta', 'nomel', 'spelon', 'pamtre', 'watmel', 'durin', 'belue',
+'lansat', 'micle', 'custap', 'jaboca', 'rowap', 'enigma', 'starf']
+
+                num = 0
+                i = 0
+                for each in key:
+                    i = i + 1
+                    num = num + int(ord(each)) * i
+
+                print(num)
+
+                letters = {
+                    "a": '',
+                    "b": '',
+                    "c": '',
+                    "d": '',
+                    "e": '',
+                    "f": '',
+                    "g": '',
+                    "h": '',
+                    "i": '',
+                    "j": '',
+                    "k": '',
+                    "l": '',
+                    "m": '',
+                    "n": '',
+                    "o": '',
+                    "p": '',
+                    "q": '',
+                    "r": '',
+                    "s": '',
+                    "t": '',
+                    "u": '',
+                    "v": '',
+                    "w": '',
+                    "x": '',
+                    "y": '',
+                    "z": ''
+                }
+
+                num = num + 1000000
+                for each in letters:
+
+                    index = (num % (len(berriesforcode)+1))-1
+                    letters[each] = berriesforcode[index]
+                    del berriesforcode[index]
+
+                print(letters)
+
+                msg = " ".join(args[1:])
+                messagelist = []
+
+                for each in msg:
+                    messagelist.append(each)
+
+                newmessagelist = []
+                for each in messagelist:
+                    if each in letters:
+                        each = berriestoemoteid.get(letters.get(each))
+                    newmessagelist.append(each)
+
+                finalmessage = "".join(newmessagelist)
+
+                await message.channel.send(finalmessage)
+
+            elif lowered[:6] == "decode":
+                args = lowered.split(" ")
+                if "key" in args[-1]:
+                    key = args[-1].replace("key:", "")
+                    del args[-1]
+                else:
+                    key = "none"
+
+                berriesforcode = ['cheri', 'chesto', 'pecha', 'rawst', 'aspear', 'leppa', 'oran', 'persim',
+                                  'occa', 'passho', 'wacan', 'rindo', 'yache', 'chople', 'kebia', 'shuca', 'coba',
+                                  'payapa', 'tanga',
+                                  'charti', 'kasib', 'haban', 'colbur', 'babiri', 'chilan', 'razz', 'nanab', 'pinap',
+                                  'bluk',
+                                  'wepear', 'roseli', 'sitrus', 'lum', 'figy', 'wiki', 'mago', 'aguav', 'iapapa',
+                                  'pomeg', 'kelpsy', 'qualot',
+                                  'hondew', 'grepa', 'tamato', 'liechi', 'ganlon', 'salac', 'petaya', 'apicot', 'kee',
+                                  'maranga',
+                                  'cornn', 'magost', 'rabuta', 'nomel', 'spelon', 'pamtre', 'watmel', 'durin', 'belue',
+                                  'lansat', 'micle', 'custap', 'jaboca', 'rowap', 'enigma', 'starf']
+
+                num = 0
+                i = 0
+                for each in key:
+                    i = i + 1
+                    num = num + int(ord(each)) * i
+
+                print(num)
+
+                letters = {
+                    "a": '',
+                    "b": '',
+                    "c": '',
+                    "d": '',
+                    "e": '',
+                    "f": '',
+                    "g": '',
+                    "h": '',
+                    "i": '',
+                    "j": '',
+                    "k": '',
+                    "l": '',
+                    "m": '',
+                    "n": '',
+                    "o": '',
+                    "p": '',
+                    "q": '',
+                    "r": '',
+                    "s": '',
+                    "t": '',
+                    "u": '',
+                    "v": '',
+                    "w": '',
+                    "x": '',
+                    "y": '',
+                    "z": ''
+                }
+
+                num = num + 1000000
+                for each in letters:
+                    index = (num % (len(berriesforcode) + 1)) - 1
+                    letters[each] = berriesforcode[index]
+                    del berriesforcode[index]
+
+                print(letters)
+
+
+
+                msg = (args[1:])
+                msg = " ".join(msg)
+                print(msg)
+                for each in berriestoemoteid:
+                    if berriestoemoteid.get(each).lower() in msg:
+                        replacement = None
+                        berryname = None
+                        for meow in letters:
+                            if letters.get(meow) == each:
+                                replacement = meow
+                                print(replacement)
+                        if replacement != None:
+                            print(msg)
+                            toreplace = str(berriestoemoteid.get(each).lower())
+                            print(toreplace)
+                            print(replacement)
+                            msg = msg.replace(str(berriestoemoteid.get(each).lower()), replacement)
+
+
+                for each in allberrystrings:
+                    if each in msg:
+                        replacement = None
+                        for meow in letters:
+                            if letters.get(meow) == each:
+                                replacement = meow
+                                print(replacement)
+                        if replacement != None:
+                            print(msg)
+                            print(replacement)
+                            msg = msg.replace(each, replacement)
+
+                decodedmessage = "".join(msg)
+                await message.channel.send(decodedmessage)
+
+
+
+
+
+
+
+
+
+
+
 
 
 

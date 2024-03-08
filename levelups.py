@@ -782,7 +782,7 @@ def getlevelups(species):
             64: '+cornn'
         }
 
-    elif species == 'frillish_male':
+    elif species == 'frillish_male' or species == "frillish_Male":
         levelup = {
             1: '+passho +kasib +kasib +oran +aspear',
             10: '+coba',
@@ -794,7 +794,7 @@ def getlevelups(species):
             64: '-aspear'
         }
 
-    elif species == 'frillish_female':
+    elif species == 'frillish_female' or species == "frillish_Female":
         levelup = {
             1: '+passho +kasib +kasib +oran +aspear',
             10: '+coba',

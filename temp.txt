@@ -1,119 +1,93 @@
 # Berries
 **Common**
-Cheri Berries: 149 <:Cheri_Berry:1176961011312492544>
-Chesto Berries: 21 <:Chesto_Berry:1176955896551702548>
-Pecha Berries: 134 <:Pecha_Berry:1176955792809799720>
-Rawst Berries: 21 <:Rawst_Berry:1176956993362210876>
-Leppa Berries: 309 <:Leppa_Berry:1176956989704785991>
-Oran Berries: 317 <:Oran_Berry:1177001065678372874>
-Persim Berries: 247 <:Persim_Berry:1176958156644024561>
+Cheri Berries: 85 <:Cheri_Berry:1176961011312492544>
+Chesto Berries: 91 <:Chesto_Berry:1176955896551702548>
+Pecha Berries: 170 <:Pecha_Berry:1176955792809799720>
+Rawst Berries: 6 <:Rawst_Berry:1176956993362210876>
+Aspear Berries: 19 <:Aspear_Berry:1176956991327965306>
+Leppa Berries: 1 <:Leppa_Berry:1176956989704785991>
+Oran Berries: 158 <:Oran_Berry:1177001065678372874>
+Persim Berries: 24 <:Persim_Berry:1176958156644024561>
 
 **Uncommon**
-Occa Berries: 1 <:Occa_Berry:1176972676909252688>
-Passho Berries: 75 <:Passho_Berry:1176965277943087195>
-Wacan Berries: 346 <:Wacan_Berry:1176965275900465212>
-Rindo Berries: 19 <:Rindo_Berry:1176965273782321314>
-Yache Berries: 17 <:Yache_Berry:1176965271056027688>
-Chople Berries: 172 <:Chople_Berry:1176972806915887176>
-:ice_cube: Kebia Berries: 32 <:Kebia_Berry:1176972805405954179> (frozen) :ice_cube:
-:ice_cube: Shuca Berries: 9 <:Shuca_Berry:1176972803774357514> (frozen) :ice_cube:
-Coba Berries: 49 <:Coba_Berry:1176972801391997019>
-Payapa Berries: 203 <:Payapa_Berry:1176972800221790338>
-Tanga Berries: 41 <:Tanga_Berry:1176972797852008550>
-:ice_cube: Charti Berries: 8 <:Charti_Berry:1176972796962799639> (frozen) :ice_cube:
-|:ice_cube: Kasib Berries: 80 <:Kasib_Berry:1176972795666776105> (frozen) :ice_cube:
-Haban Berries: 26 <:Haban_Berry:1176972790658773092>
-:ice_cube: Colbur Berries: 108 <:Colbur_Berry:1176972787856965813> (frozen) :ice_cube:
-Chilan Berries: 61 <a:Chilan_Berry:1176972882488852610>
-Razz Berries: 4 <:Razz_Berry:1176959308014035115>
-:ice_cube: Nanab Berries: 74 <:Nanab_Berry:1176962012937470002> (frozen) :ice_cube:
-:ice_cube: Bluk Berries: 7 <:Bluk_Berry:1176959306436980848> (frozen) :ice_cube:
-:ice_cube: Roseli Berries: 3 <a:Roseli_Berry:1176973032846274662> (frozen) :ice_cube:
-:ice_cube: Sitrus Berries: 148 <:Sitrus_Berry:1176958154051948544> (frozen) :ice_cube:
+Occa Berries: 2 <:Occa_Berry:1176972676909252688>
+Passho Berries: 4 <:Passho_Berry:1176965277943087195>
+Wacan Berries: 24 <:Wacan_Berry:1176965275900465212>
+Rindo Berries: 11 <:Rindo_Berry:1176965273782321314>
+Yache Berries: 22 <:Yache_Berry:1176965271056027688>
+:ice_cube: Chople Berries: 56 <:Chople_Berry:1176972806915887176> (frozen) :ice_cube:
+:ice_cube: Kebia Berries: 7 <:Kebia_Berry:1176972805405954179> (frozen) :ice_cube:
+Shuca Berries: 76 <:Shuca_Berry:1176972803774357514>
+Coba Berries: 51 <:Coba_Berry:1176972801391997019>
+Payapa Berries: 56 <:Payapa_Berry:1176972800221790338>
+:ice_cube: Tanga Berries: 1 <:Tanga_Berry:1176972797852008550> (frozen) :ice_cube:
+|Charti Berries: 47 <:Charti_Berry:1176972796962799639>
+Kasib Berries: 43 <:Kasib_Berry:1176972795666776105>
+:ice_cube: Haban Berries: 16 <:Haban_Berry:1176972790658773092> (frozen) :ice_cube:
+:ice_cube: Colbur Berries: 52 <:Colbur_Berry:1176972787856965813> (frozen) :ice_cube:
+:ice_cube: Babiri Berries: 0 <a:Babiri_Berry:1176972885475209226> (frozen) :ice_cube:
+Chilan Berries: 18 <a:Chilan_Berry:1176972882488852610>
+Razz Berries: 19 <:Razz_Berry:1176959308014035115>
+Nanab Berries: 23 <:Nanab_Berry:1176962012937470002>
+Pinap Berries: 18 <:Pinap_Berry:1176962011616268339>
+:ice_cube: Bluk Berries: 18 <:Bluk_Berry:1176959306436980848> (frozen) :ice_cube:
+Wepear Berries: 70 <:Wepear_Berry:1176962160916697119>
+Roseli Berries: 81 <a:Roseli_Berry:1176973032846274662>
+Sitrus Berries: 7 <:Sitrus_Berry:1176958154051948544>
 
 **Rare**
-Lum Berries: 15 <:Lum_berry:1176958155222159360>
-Figy Berries: 0 <:Figy_Berry:1176958151904481401>
-Wiki Berries: 10 <:Wiki_Berry:1176959314578112542>
-Mago Berries: 30 <:Mago_Berry:1176959312845865012>
-Iapapa Berries: 100 <:Iapapa_Berry:1176959309578502246>
-Pomeg Berries: 6 <:Pomeg_Berry:1176962009049346058>
-Kelpsy Berries: 8 <:Kelpsy_Berry:1176962007426146464>
-Qualot Berries: 0 <:Qualot_Berry:1176962965950443520>
-Hondew Berries: 82 <:Hondew_Berry:1176962964805394462>
-Grepa Berries: 32 <:Grepa_Berry:1176962963383529614>
-|Liechi Berries: 14 <a:Liechi_Berry:1176972880991490078>
-Salac Berries: 86 <a:Salac_Berry:1176972877405372506>
-Petaya Berries: 4 <a:Petaya_Berry:1176973050495897691>
-Apicot Berries: 90 <a:Apicot_Berry:1176973588591542272>
-Kee Berries: 0 <a:Kee_Berry:1176973030682005514>
-Maranga Berries: 26 <a:Maranga_Berry:1176973027183972443>
+Lum Berries: 46 <:Lum_berry:1176958155222159360>
+Figy Berries: 16 <:Figy_Berry:1176958151904481401>
+Wiki Berries: 25 <:Wiki_Berry:1176959314578112542>
+Mago Berries: 87 <:Mago_Berry:1176959312845865012>
+Aguav Berries: 1 <:Aguav_Berry:1176959310836805713>
+Iapapa Berries: 36 <:Iapapa_Berry:1176959309578502246>
+|Pomeg Berries: 33 <:Pomeg_Berry:1176962009049346058>
+Kelpsy Berries: 10 <:Kelpsy_Berry:1176962007426146464>
+Qualot Berries: 44 <:Qualot_Berry:1176962965950443520>
+Hondew Berries: 76 <:Hondew_Berry:1176962964805394462>
+Grepa Berries: 2 <:Grepa_Berry:1176962963383529614>
+Tamato Berries: 34 <:Tamato_Berry:1176962960934047815>
+Liechi Berries: 3 <a:Liechi_Berry:1176972880991490078>
+Ganlon Berries: 29 <a:Ganlon_Berry:1176972878999191702>
+Salac Berries: 7 <a:Salac_Berry:1176972877405372506>
+Petaya Berries: 51 <a:Petaya_Berry:1176973050495897691>
+Apicot Berries: 41 <a:Apicot_Berry:1176973588591542272>
+Kee Berries: 50 <a:Kee_Berry:1176973030682005514>
+Maranga Berries: 62 <a:Maranga_Berry:1176973027183972443>
 
 **Exotic**
-Cornn Berries: 6 <:Cornn_Berry:1176963633788497990>
-Magost Berries: 96 <:Magost_Berry:1176963632358236292>
-Rabuta Berries: 63 <:Rabuta_Berry:1176963630420463757>
-Nomel Berries: 127 <:Nomel_Berry:1176963629057319033>
-Spelon Berries: 31 <:Spelon_Berry:1176964398078771221>
-Pamtre Berries: 40 <:Pamtre_Berry:1176964396732383232>
-Watmel Berries: 148 <:Watmel_Berry:1176964394228391997>
-Durin Berries: 25 <:Durin_Berry:1176964392470978631>
-Belue Berries: 95 <:Belue_Berry:1176964389744681050>
-Lansat Berries: 70 <a:Lansat_Berry:1176973046708445224>
-Micle Berries: 243 <a:Micle_Berry:1176973041264238723>
-Custap Berries: 10 <a:Custap_Berry:1176973039859150879>
-Jaboca Berries: 0 <a:Jaboca_Berry:1176973037132849193>
-|Rowap Berries: 61 <a:Rowap_Berry:1176973035748737095>
-Enigma Berries: 136 <a:Enigma_Berry:1176973043273318540>
-Golden_pinap Berries: 136 <a:Golden_Pinap_Berry:1176972953955610684>
+Cornn Berries: 2 <:Cornn_Berry:1176963633788497990>
+Nomel Berries: 2 <:Nomel_Berry:1176963629057319033>
+Spelon Berries: 19 <:Spelon_Berry:1176964398078771221>
+Watmel Berries: 2 <:Watmel_Berry:1176964394228391997>
+Durin Berries: 21 <:Durin_Berry:1176964392470978631>
+Belue Berries: 3 <:Belue_Berry:1176964389744681050>
+|Lansat Berries: 16 <a:Lansat_Berry:1176973046708445224>
+Custap Berries: 0 <a:Custap_Berry:1176973039859150879>
+Rowap Berries: 8 <a:Rowap_Berry:1176973035748737095>
 
 **Legendary**
-Starf Berries: 10 <a:Starf_Berry:1176973551136428073>
-Cosnut Berries: 4 <a:Cosnut_Berry_custom:1210399482462871553>
+Starf Berries: 9 <a:Starf_Berry:1176973551136428073>
 
 # Juices
 
 **Common**
-Cheri Berry Juice: 2 <:cherijuiceup:1204134206884806707>
-Chesto Berry Juice: 2 <:chestojuiceup:1204133887639289946>
-Pecha Berry Juice: 2 <:pechajuiceup:1204133443840245790>
-Rawst Berry Juice: 3 <:rawstjuiceup:1204133383119306863>
-Aspear Berry Juice: 4 <:aspearjuiceup:1204134070020341821>
-Leppa Berry Juice: 1 <:leppajuiceup:1204133843834241044>
-Oran Berry Juice: 1 <:oranjuiceup:1204134245472411668>
-Persim Berry Juice: 5 <:persimjuiceup:1204133420628709438>
 
 **Uncommon**
-Yache Berry Juice: 1 <:Yache_Berry:1176965271056027688>
-Kebia Berry Juice: 1 <:Kebia_Berry:1176972805405954179>
-Colbur Berry Juice: 1 <:Colbur_Berry:1176972787856965813>
-|
+
 **Rare**
 
 **Exotic**
-Nomel Berry Juice: 25 <:Nomel_Berry:1176963629057319033>
-Watmel Berry Juice: 15 <:watmeljuiceup:1204920505111543889>
-Enigma Berry Juice: 15 <a:Enigma_Berry:1176973043273318540>
 
 **Legendary**
 # Gems
-Fire Gem Lvl.11 <:FireGem:1205746134698426388>
-Water Gem Lvl.15 <:WaterGem:1205746137764470875>
-Electric Gem Lvl.22 <:ElectricGem:1205746136732667934>
-Grass Gem Lvl.28 <:GrassGem:1205746132173721661>
-Ice Gem Lvl.12 <:IceGem:1205746130558779402>
-Fighting Gem Lvl.7 <:FightingGem:1205746010152767508>
-Poison Gem Lvl.8 <:PoisonGem:1205746009284804658>
-Ground Gem Lvl.6 <:GroundGem:1205746008173051934>
-Flying Gem Lvl.12 <:FlyingGem:1205745797015019560>
-Psychic Gem Lvl.13 <:PsychicGem:1205745962925039668>
-Bug Gem Lvl.8 <:BugGem:1205745794213478450>
-Rock Gem Lvl.3 <:RockGem:1205745793156386887>
-Ghost Gem Lvl.5 <:GhostGem:1205745792065732638>
-Dark Gem Lvl.6 <:DarkGem:1205745790467973180>
-|Steel Gem Lvl.5 <:SteelGem:1205745788937048105>
-Fairy Gem Lvl.10 <:FairyGem:1205746133054525500>
-Dragon Gem Lvl.8 <:DragonGem:1205745791277469766>
-Normal Gem Lvl.20 <:NormalGem:1205745788349583362>
+Fire Gem Lvl.6 <:FireGem:1205746134698426388>
+Water Gem Lvl.7 <:WaterGem:1205746137764470875>
+Electric Gem Lvl.11 <:ElectricGem:1205746136732667934>
+Grass Gem Lvl.46 <:GrassGem:1205746132173721661>
+Ice Gem Lvl.8 <:IceGem:1205746130558779402>
+Psychic Gem Lvl.9 <:PsychicGem:1205745962925039668>
+Fairy Gem Lvl.1 <:FairyGem:1205746133054525500>
+Normal Gem Lvl.17 <:NormalGem:1205745788349583362>
 # Foods
-Harvest Pie: 1 
