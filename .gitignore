@@ -1,0 +1,11 @@
+/.env
+/sounds/
+/pointcounts/
+/berries/
+/berryfiles/
+/equipment/
+/ffmpeg/
+/gifs/
+/pets/
+/.venv/
+/scores/
