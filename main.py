@@ -4676,7 +4676,7 @@ It seems to want to join you!""")
                         if keyindex < 0:
                             keyindex = len(key)-1
 
-                        index = (num % (len(berriesforcode) + 1)) - 1
+                        index = (num % (len(berriesforcode)))
 
                         #index = -1
                         #for count in range(num):
@@ -4688,7 +4688,7 @@ It seems to want to join you!""")
 
                 finalmessage = "".join(finalmessage)
 
-                await message.channel.send(finalmessage)
+                await message.channel.send("Encoded message: " + finalmessage)
 
 
 
@@ -4835,7 +4835,7 @@ It seems to want to join you!""")
                             if keyindex2 < 0:
                                 keyindex2 = len(key) - 1
 
-                            index2 = (num2 % (len(berriesforcode) + 1)) - 1
+                            index2 = (num2 % (len(berriesforcode)))
 
                             #index2 = -1
                             #for count in range(num2):
@@ -4873,7 +4873,7 @@ It seems to want to join you!""")
 
                 finalmessage = "".join(finalmessage)
 
-                await message.channel.send(finalmessage)
+                await message.channel.send("Decoded message: " + finalmessage)
 
 
 
