@@ -4596,6 +4596,249 @@ It seems to want to join you!""")
                 decodedmessage = "".join(msg)
                 await message.channel.send(decodedmessage)
 
+            elif lowered[:11] == 'v2berrycode':
+                args = lowered.split(" ")
+                if "key" in args[-1]:
+                    key = args[-1].replace("key:", "")
+                    del args[-1]
+                else:
+                    key = "none"
+
+                berriesforcode = ['cheri', 'chesto', 'pecha', 'rawst', 'aspear', 'leppa', 'oran', 'persim',
+                                  'occa', 'passho', 'wacan', 'rindo', 'yache', 'chople', 'kebia', 'shuca', 'coba',
+                                  'payapa', 'tanga',
+                                  'charti', 'kasib', 'haban', 'colbur', 'babiri', 'chilan', 'razz', 'nanab', 'pinap',
+                                  'bluk',
+                                  'wepear', 'roseli', 'sitrus', 'lum', 'figy', 'wiki', 'mago', 'aguav', 'iapapa',
+                                  'pomeg', 'kelpsy', 'qualot',
+                                  'hondew', 'grepa', 'tamato', 'liechi', 'ganlon', 'salac', 'petaya', 'apicot', 'kee',
+                                  'maranga',
+                                  'cornn', 'magost', 'rabuta', 'nomel', 'spelon', 'pamtre', 'watmel', 'durin', 'belue',
+                                  'lansat', 'micle', 'custap', 'jaboca', 'rowap', 'enigma', 'starf']
+
+                num = 0
+                i = 0
+                for each in key:
+                    i = i + 1
+                    num = num + int(ord(each)) * i
+
+                print(num)
+
+
+
+
+
+                msg2 = " ".join(args[1:])
+                msg2decode = []
+
+
+
+                for each in msg2:
+                    msg2decode.append(each)
+
+                num = num + len(msg2decode) + len(key)
+                print("A")
+                print(num)
+
+                finalmessage = []
+
+                max = len(key)
+                keyindex = len(key)-1
+
+                keylist = []
+                for each in key:
+                    keylist.append(each)
+
+                i = -1
+                j = len(msg2decode)+1
+                print('j')
+                print(j)
+
+                for count in range(len(msg2decode)):
+                    i = i + 1
+                    j = j-1
+
+
+                    if msg2decode[i] == " ":
+                        finalmessage.append(" ")
+
+                    else:
+
+                        num = num + 100 + ord(keylist[keyindex]) + keyindex + j
+                        print(num)
+
+                        num = num + ord(msg2decode[i])
+                        print(ord(msg2decode[i]))
+
+                        keyindex = keyindex - 1
+                        if keyindex < 0:
+                            keyindex = len(key)-1
+
+                        index = (num % (len(berriesforcode) + 1)) - 1
+
+                        finalmessage.append(berriestoemoteid.get(berriesforcode[index]))
+
+                finalmessage = "".join(finalmessage)
+
+                await message.channel.send(finalmessage)
+
+
+
+            elif lowered[:8] == 'v2decode':
+
+                args = lowered.split(" ")
+
+                if "key" in args[-1]:
+
+                    key = args[-1].replace("key:", "")
+
+                    del args[-1]
+
+                else:
+
+                    key = "none"
+
+                berriesforcode = ['cheri', 'chesto', 'pecha', 'rawst', 'aspear', 'leppa', 'oran', 'persim',
+
+                                  'occa', 'passho', 'wacan', 'rindo', 'yache', 'chople', 'kebia', 'shuca', 'coba',
+
+                                  'payapa', 'tanga',
+
+                                  'charti', 'kasib', 'haban', 'colbur', 'babiri', 'chilan', 'razz', 'nanab', 'pinap',
+
+                                  'bluk',
+
+                                  'wepear', 'roseli', 'sitrus', 'lum', 'figy', 'wiki', 'mago', 'aguav', 'iapapa',
+
+                                  'pomeg', 'kelpsy', 'qualot',
+
+                                  'hondew', 'grepa', 'tamato', 'liechi', 'ganlon', 'salac', 'petaya', 'apicot', 'kee',
+
+                                  'maranga',
+
+                                  'cornn', 'magost', 'rabuta', 'nomel', 'spelon', 'pamtre', 'watmel', 'durin', 'belue',
+
+                                  'lansat', 'micle', 'custap', 'jaboca', 'rowap', 'enigma', 'starf']
+
+                num = 0
+
+                i = 0
+
+                for each in key:
+                    i = i + 1
+
+                    num = num + int(ord(each)) * i
+
+                print(num)
+
+
+                msg2 = " ".join(args[1:])
+                msg2 = msg2.replace(">", "> ")
+                msg2 = msg2.split(" ")
+
+                msg2decode = msg2
+
+                num = num + len(msg2) + len(key) - 1
+                print("A")
+                print(num)
+
+
+                finalmessage = []
+
+                max = len(key)
+
+                keyindex = len(key) - 1
+
+                keylist = []
+
+                for each in key:
+                    keylist.append(each)
+
+                i = -1
+
+                j = len(msg2decode)
+                print('j')
+                print(j)
+
+                print(msg2)
+
+                for each in msg2:
+
+                    i = i + 1
+
+                    j = j - 1
+
+                    if each == '':
+
+                        finalmessage.append(" ")
+
+
+                    else:
+
+                        num = num + 100 + ord(keylist[keyindex]) + keyindex + j
+                        print(num)
+
+                        testnum = 96
+                        index2 = 0
+
+
+
+                        for berry in berriestoemoteid:
+                            if berriestoemoteid.get(berry).lower() == str(each):
+                                each = berry
+                                print("meow")
+
+                        print(each)
+                        a = 0
+
+
+                        while berriesforcode[index2] != each and a <= 126:
+
+                            testnum = testnum + 1
+                            num2 = num + testnum
+
+                            keyindex2 = keyindex - 1
+
+                            if keyindex2 < 0:
+                                keyindex2 = len(key) - 1
+
+                            index2 = (num2 % (len(berriesforcode) + 1)) - 1
+
+
+                            if testnum > 122:
+                                testnum = 96
+
+                            a = a+1
+                            print(a)
+                            if a >= 126:
+                                testnum = 42
+
+
+
+
+
+
+                        num = num2
+                        keyindex = keyindex2
+                        char = chr(testnum)
+
+                        if char == "U":
+                            char = "m"
+
+                        print(str(testnum) + ":" + str(char))
+
+
+
+                        finalmessage.append(char)
+
+                finalmessage = "".join(finalmessage)
+
+                await message.channel.send(finalmessage)
+
+
+
+
+
 
 
 
