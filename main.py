@@ -4636,6 +4636,8 @@ It seems to want to join you!""")
                 for each in msg2:
                     msg2decode.append(each)
 
+                print(msg2decode)
+
                 num = num + len(msg2decode) + len(key)
                 print("A")
                 print(num)
@@ -4659,7 +4661,7 @@ It seems to want to join you!""")
                     j = j-1
 
 
-                    if msg2decode[i] == " ":
+                    if msg2decode[i] == " " or msg2decode[i] == "":
                         finalmessage.append(" ")
 
                     else:
@@ -4675,6 +4677,12 @@ It seems to want to join you!""")
                             keyindex = len(key)-1
 
                         index = (num % (len(berriesforcode) + 1)) - 1
+
+                        index = -1
+                        for count in range(num):
+                            index = index + 1
+                            if index > (len(berriesforcode) - 1):
+                                index = -1
 
                         finalmessage.append(berriestoemoteid.get(berriesforcode[index]))
 
@@ -4770,6 +4778,11 @@ It seems to want to join you!""")
 
                 j = len(msg2decode)
                 print('j')
+
+
+
+
+
                 print(j)
 
                 print(msg2)
@@ -4804,7 +4817,7 @@ It seems to want to join you!""")
                         a = 0
 
 
-                        while berriesforcode[index2] != each and a <= 126:
+                        while berriesforcode[index2] != each and a <= 30:
 
                             testnum = testnum + 1
                             num2 = num + testnum
@@ -4814,7 +4827,15 @@ It seems to want to join you!""")
                             if keyindex2 < 0:
                                 keyindex2 = len(key) - 1
 
-                            index2 = (num2 % (len(berriesforcode) + 1)) - 1
+                            # index2 = (num2 % (len(berriesforcode) + 1)) - 1
+
+                            index2 = -1
+                            for count in range(num2):
+                                index2 = index2+1
+                                if index2 > (len(berriesforcode)-1):
+                                    index2 = -1
+
+
 
 
                             if testnum > 122:
@@ -4822,7 +4843,7 @@ It seems to want to join you!""")
 
                             a = a+1
                             print(a)
-                            if a >= 126:
+                            if a >= 30:
                                 testnum = 42
 
 
