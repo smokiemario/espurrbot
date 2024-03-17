@@ -4678,11 +4678,11 @@ It seems to want to join you!""")
 
                         index = (num % (len(berriesforcode) + 1)) - 1
 
-                        index = -1
-                        for count in range(num):
-                            index = index + 1
-                            if index > (len(berriesforcode) - 1):
-                                index = -1
+                        #index = -1
+                        #for count in range(num):
+                        #    index = index + 1
+                        #    if index > (len(berriesforcode) - 1):
+                        #        index = -1
 
                         finalmessage.append(berriestoemoteid.get(berriesforcode[index]))
 
@@ -4805,6 +4805,7 @@ It seems to want to join you!""")
 
                         testnum = 96
                         index2 = 0
+                        first = True
 
 
 
@@ -4817,29 +4818,35 @@ It seems to want to join you!""")
                         a = 0
 
 
-                        while berriesforcode[index2] != each and a <= 30:
+                        while berriesforcode[index2] != each and a <= 30 or first == True:
 
+                            first = False
                             testnum = testnum + 1
+
+                            if testnum > 122:
+                                testnum = 97
+
                             num2 = num + testnum
+
+
 
                             keyindex2 = keyindex - 1
 
                             if keyindex2 < 0:
                                 keyindex2 = len(key) - 1
 
-                            # index2 = (num2 % (len(berriesforcode) + 1)) - 1
+                            index2 = (num2 % (len(berriesforcode) + 1)) - 1
 
-                            index2 = -1
-                            for count in range(num2):
-                                index2 = index2+1
-                                if index2 > (len(berriesforcode)-1):
-                                    index2 = -1
-
-
+                            #index2 = -1
+                            #for count in range(num2):
+                            #    index2 = index2+1
+                            #    if index2 > (len(berriesforcode)-1):
+                            #        index2 = -1
 
 
-                            if testnum > 122:
-                                testnum = 96
+
+
+
 
                             a = a+1
                             print(a)
