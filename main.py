@@ -4730,11 +4730,23 @@ It seems to want to join you!""")
                     num = num + int(ord(each)) * i
 
                 print(num)
-
-
                 msg2 = " ".join(args[1:])
+
+                if ">" not in msg2:
+                    for each in berriesforcode:
+                        msg2 = msg2.replace(each, berriestoemoteid.get(each))
+                    print(msg2)
+
+
+
+                msg2 = msg2.lower()
                 msg2 = msg2.replace(">", "> ")
                 msg2 = msg2.split(" ")
+
+
+
+
+
 
                 msg2decode = msg2
 
